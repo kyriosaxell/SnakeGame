@@ -1,0 +1,33 @@
+# Base sólida y conocida
+BasedOnStyle: LLVM
+Language: Cpp
+
+# C++ moderno
+Standard: Latest
+
+IndentWidth: 4
+TabWidth: 4
+UseTab: Always
+
+# Límites de línea
+ColumnLimit: 110
+
+AllowShortFunctionsOnASingleLine: Inline
+
+AllowShortIfStatementsOnASingleLine: AllIfsAndElse
+
+AlignConsecutiveShortCaseStatements:
+  Enabled: true
+  AcrossEmptyLines: true
+  AcrossComments: true
+  AlignCaseColons: false
+
+AlignConsecutiveTableGenCondOperatorColons:
+  Enabled: true
+  AcrossEmptyLines: true
+  AcrossComments: false
+
+AlignConsecutiveAssignments:
+  Enabled: true
+  AcrossEmptyLines: true
+  AcrossComments: false
